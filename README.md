@@ -1,2 +1,2 @@
 # OrienteedMayoral
-Test of product list
+Test of product list - Álvaro García Graña
