@@ -1,0 +1,60 @@
+.root{
+
+}
+
+.content{
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    padding: 5%;
+    min-height: 100%;
+    min-width: 260px;
+}
+
+.field{
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    height: 260px;
+    text-align: center;
+}
+
+.price{
+    margin-top: 50px;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.discount{
+    color: red;
+    text-align: center;
+}
+
+.buttonContent{
+    margin-top: 20px;
+    display: flex;
+}
+
+.button{
+    margin: 10px auto;
+    background-color: #008CED;
+    color: white;
+    border: unset;
+    width: 70px;
+    padding: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.moreColors{
+    cursor: pointer;
+    color: lightslategray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    height: 20px;
+}

@@ -1,0 +1,11 @@
+.root{
+    
+}
+
+.content{
+    padding: 0 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
