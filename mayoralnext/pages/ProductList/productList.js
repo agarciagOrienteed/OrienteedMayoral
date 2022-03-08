@@ -1,17 +1,20 @@
 import React, { useMemo, useState, useEffect } from 'react';
 import ProductItem from './ProductItem/productItem';
 import styles from '../../styles/ProductList/productList.module.css'
-import { productList } from './data';
 //import { useProductList } from '../../hook/useProductList';
 
+
 const ProductList = props => {
-    const [itemsView, setItemsView] = useState(productList);
 
     //TODO: Code to the custom hook
 
     /*const {
         itemsAMZ
     } = useProductList();*/
+
+    const { data } = props;
+
+    const [itemsView, setItemsView] = useState(data);
 
     const items = [];
 
@@ -30,17 +33,16 @@ const ProductList = props => {
                 setItemsView(searchResult);
             }else{
                 setSearchState(false)
-                setItemsView(productList);
+                setItemsView(data);
             }
         }else {
             setSearchState(true)
-            setItemsView(productList);
+            setItemsView(data);
         }
         
     }
 
     const handleChange = e => {
-        console.log("Search: " + e.target.value);
         filter(e.target.value);
     };
 
