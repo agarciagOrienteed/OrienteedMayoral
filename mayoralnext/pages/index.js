@@ -6,7 +6,7 @@ import ProductList from './ProductList/productList';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <ProductList></ProductList>
+      <ProductList/>
     </div>
   )
 }

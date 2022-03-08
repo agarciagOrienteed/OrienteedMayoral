@@ -4,10 +4,28 @@
 
 .content{
     padding: 0 5%;
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 2rem;
+}
+
+.searchBarContainer{
+    display: flex;
+    justify-content: left;
+    padding: 0 5%;
+}
+
+.searchBar{
+    width: 600px;
+    margin-top: 36px;
+    padding: 6px;
+}
+
+.error{
+    position: absolute;
+    top: 8px;
+    color: red;
 }
 
 @media (max-width: 960px) {
